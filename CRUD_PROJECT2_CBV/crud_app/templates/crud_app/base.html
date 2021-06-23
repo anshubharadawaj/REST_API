@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD_PROJECT</title>
+    <link rel="stylesheet" href="{% static 'crud_app/css/bootstrap.css' %}">
+</head>
+<body>
+<div class="container mt-5">
+    <h4 class="text-center alert alert-danger">BASED CLASS BASED VIEW MODELFORM CRUDPROJECT</h4>
+    {% block content %} {% endblock %}
+
+</div>
+
+
+<script src="{% static 'crud_app/js/jquery.js' %}"></script>
+<script src="{% static 'crud_app/js/popper.js' %}"></script>
+<script src="{% static 'crud_app/js/bootstrap.js' %}"></script>
+
+</body>
+</html>
